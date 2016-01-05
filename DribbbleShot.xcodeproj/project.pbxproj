@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFBC24C51AB4A007009C5F6E /* ShotDetailContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBC24C41AB4A007009C5F6E /* ShotDetailContoller.swift */; };
+		AFBC24C71AB4B187009C5F6E /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBC24C61AB4B187009C5F6E /* Comment.swift */; };
+		AFBC24CA1AB4D4B7009C5F6E /* MegaTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBC24C91AB4D4B7009C5F6E /* MegaTheme.swift */; };
 		AFBF491D1AB0FC0D00923508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF491C1AB0FC0D00923508 /* AppDelegate.swift */; };
-		AFBF491F1AB0FC0D00923508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF491E1AB0FC0D00923508 /* ViewController.swift */; };
 		AFBF49221AB0FC0D00923508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBF49201AB0FC0D00923508 /* Main.storyboard */; };
 		AFBF49241AB0FC0D00923508 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBF49231AB0FC0D00923508 /* Images.xcassets */; };
 		AFBF49271AB0FC0D00923508 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFBF49251AB0FC0D00923508 /* LaunchScreen.xib */; };
 		AFBF49331AB0FC0D00923508 /* DribbbleShotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF49321AB0FC0D00923508 /* DribbbleShotTests.swift */; };
+		AFBF493E1AB0FC8D00923508 /* DribbbleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF493D1AB0FC8D00923508 /* DribbbleAPI.swift */; };
+		AFBF49411AB0FD2000923508 /* ShotsGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF49401AB0FD2000923508 /* ShotsGridController.swift */; };
+		AFBF49441AB1006300923508 /* ShotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF49431AB1006300923508 /* ShotCell.swift */; };
+		AFBFBA3C1AB4079E002ED890 /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBFBA3B1AB4079E002ED890 /* Shot.swift */; };
+		AFBFBA3F1AB407E0002ED890 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBFBA3E1AB407E0002ED890 /* Utils.swift */; };
+		AFBFBA411AB40809002ED890 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBFBA401AB40809002ED890 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AFBC24C41AB4A007009C5F6E /* ShotDetailContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShotDetailContoller.swift; path = Views/ShotDetailContoller.swift; sourceTree = "<group>"; };
+		AFBC24C61AB4B187009C5F6E /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = DribbbleAPI/Comment.swift; sourceTree = "<group>"; };
+		AFBC24C91AB4D4B7009C5F6E /* MegaTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MegaTheme.swift; path = Theme/MegaTheme.swift; sourceTree = "<group>"; };
 		AFBF49171AB0FC0D00923508 /* DribbbleShot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DribbbleShot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBF491B1AB0FC0D00923508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFBF491C1AB0FC0D00923508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFBF491E1AB0FC0D00923508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFBF49211AB0FC0D00923508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFBF49231AB0FC0D00923508 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AFBF49261AB0FC0D00923508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AFBF492C1AB0FC0D00923508 /* DribbbleShotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DribbbleShotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBF49311AB0FC0D00923508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFBF49321AB0FC0D00923508 /* DribbbleShotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DribbbleShotTests.swift; sourceTree = "<group>"; };
+		AFBF493D1AB0FC8D00923508 /* DribbbleAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DribbbleAPI.swift; path = DribbbleAPI/DribbbleAPI.swift; sourceTree = "<group>"; };
+		AFBF49401AB0FD2000923508 /* ShotsGridController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShotsGridController.swift; path = Views/ShotsGridController.swift; sourceTree = "<group>"; };
+		AFBF49431AB1006300923508 /* ShotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShotCell.swift; path = Cells/ShotCell.swift; sourceTree = "<group>"; };
+		AFBFBA3B1AB4079E002ED890 /* Shot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shot.swift; path = DribbbleAPI/Shot.swift; sourceTree = "<group>"; };
+		AFBFBA3E1AB407E0002ED890 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AFBFBA401AB40809002ED890 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = DribbbleAPI/User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AFBC24C81AB4D497009C5F6E /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				AFBC24C91AB4D4B7009C5F6E /* MegaTheme.swift */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
 		AFBF490E1AB0FC0D00923508 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +101,12 @@
 		AFBF49191AB0FC0D00923508 /* DribbbleShot */ = {
 			isa = PBXGroup;
 			children = (
+				AFBC24C81AB4D497009C5F6E /* Theme */,
+				AFBFBA3D1AB407CD002ED890 /* Utils */,
+				AFBF49421AB1002F00923508 /* Cells */,
+				AFBF493F1AB0FCEC00923508 /* Views */,
+				AFBF493C1AB0FC6B00923508 /* DribbbleAPI */,
 				AFBF491C1AB0FC0D00923508 /* AppDelegate.swift */,
-				AFBF491E1AB0FC0D00923508 /* ViewController.swift */,
 				AFBF49201AB0FC0D00923508 /* Main.storyboard */,
 				AFBF49231AB0FC0D00923508 /* Images.xcassets */,
 				AFBF49251AB0FC0D00923508 /* LaunchScreen.xib */,
@@ -110,6 +138,42 @@
 				AFBF49311AB0FC0D00923508 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFBF493C1AB0FC6B00923508 /* DribbbleAPI */ = {
+			isa = PBXGroup;
+			children = (
+				AFBF493D1AB0FC8D00923508 /* DribbbleAPI.swift */,
+				AFBFBA3B1AB4079E002ED890 /* Shot.swift */,
+				AFBFBA401AB40809002ED890 /* User.swift */,
+				AFBC24C61AB4B187009C5F6E /* Comment.swift */,
+			);
+			name = DribbbleAPI;
+			sourceTree = "<group>";
+		};
+		AFBF493F1AB0FCEC00923508 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFBC24C41AB4A007009C5F6E /* ShotDetailContoller.swift */,
+				AFBF49401AB0FD2000923508 /* ShotsGridController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AFBF49421AB1002F00923508 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AFBF49431AB1006300923508 /* ShotCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		AFBFBA3D1AB407CD002ED890 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AFBFBA3E1AB407E0002ED890 /* Utils.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +220,9 @@
 		AFBF490F1AB0FC0D00923508 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Angelito;
 				TargetAttributes = {
 					AFBF49161AB0FC0D00923508 = {
@@ -212,8 +278,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFBF491F1AB0FC0D00923508 /* ViewController.swift in Sources */,
+				AFBF493E1AB0FC8D00923508 /* DribbbleAPI.swift in Sources */,
 				AFBF491D1AB0FC0D00923508 /* AppDelegate.swift in Sources */,
+				AFBF49411AB0FD2000923508 /* ShotsGridController.swift in Sources */,
+				AFBFBA3C1AB4079E002ED890 /* Shot.swift in Sources */,
+				AFBF49441AB1006300923508 /* ShotCell.swift in Sources */,
+				AFBC24CA1AB4D4B7009C5F6E /* MegaTheme.swift in Sources */,
+				AFBFBA3F1AB407E0002ED890 /* Utils.swift in Sources */,
+				AFBFBA411AB40809002ED890 /* User.swift in Sources */,
+				AFBC24C71AB4B187009C5F6E /* Comment.swift in Sources */,
+				AFBC24C51AB4A007009C5F6E /* ShotDetailContoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +349,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -328,6 +403,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -338,6 +414,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DribbbleShot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "angelsystem.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -348,6 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DribbbleShot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "angelsystem.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -356,16 +434,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = DribbbleShotTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "angelsystem.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DribbbleShot.app/DribbbleShot";
 			};
@@ -375,12 +450,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = DribbbleShotTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "angelsystem.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DribbbleShot.app/DribbbleShot";
 			};
@@ -405,6 +477,7 @@
 				AFBF49381AB0FC0D00923508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFBF49391AB0FC0D00923508 /* Build configuration list for PBXNativeTarget "DribbbleShotTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +486,7 @@
 				AFBF493B1AB0FC0D00923508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
